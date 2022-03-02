@@ -1,0 +1,7 @@
+[build]
+  publish = "portfolio/public"
+  command = "cd portfolio && hugo --gc --themesDir ../.."
+
+[build.environment]
+  HUGO_VERSION = "0.93.1"
+  HUGO_THEME = "repo"
